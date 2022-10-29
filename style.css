@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'inter', sans-serif;
     line-height: 160%;
 }
@@ -11,11 +12,18 @@
 
 header {
     background-color: #829017;
-    height: 30vh;
+    height: 150px;
     width: 100%;
     /*position: fixed;*/
-    display: block;
-    justify-content: space-around;
+    display: flex;
+}
+
+/*div Titulo e Menu*/
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*Logo*/
@@ -23,13 +31,14 @@ header {
 .logo {
     width: 150px;
     height: 150px;
-    
 }
 
 /*Titulo*/
 
 header h1 {
-
+    font-size: 62px;
+    margin: 0;
+    padding: 0;
 }
 
 /*Menu dropdown*/
@@ -84,7 +93,10 @@ header h1 {
 /*Botão login*/
 
 .login {
-    
+    width: 70px;
+    height: 40px;
+    background-color: rgb(21, 163, 64);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 body {
