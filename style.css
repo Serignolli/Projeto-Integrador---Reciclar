@@ -11,6 +11,25 @@
 
 header {
     background-color: #829017;
+    height: 30vh;
+    width: 100%;
+    /*position: fixed;*/
+    display: block;
+    justify-content: space-around;
+}
+
+/*Logo*/
+
+.logo {
+    width: 150px;
+    height: 150px;
+    
+}
+
+/*Titulo*/
+
+header h1 {
+
 }
 
 /*Menu dropdown*/
@@ -60,4 +79,14 @@ header {
     border: 1px solid #c0c0c0;
     display: block;
     width: 150px;
+}
+
+/*Botão login*/
+
+.login {
+    
+}
+
+body {
+    
 }
