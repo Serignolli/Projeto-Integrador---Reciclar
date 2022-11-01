@@ -14,7 +14,7 @@ header {
     background-color: #829017;
     height: 150px;
     width: 100%;
-    /*position: fixed;*/
+    position: fixed;
     display: flex;
 }
 
@@ -99,6 +99,42 @@ header h1 {
     border: 1px solid rgb(0, 0, 0);
 }
 
-body {
-    
+/*Body*/
+
+/*Imagem body*/
+
+.images {
+    display: flex;
+    align-items: stretch;
+}
+
+.images img {
+    margin: 160px 200px 30px 100px;
+    width: 800px;
+    height: 400px;
+}
+
+/*Textos body*/
+
+.texts {
+    margin: 0 200px 0 100px;
+
+}
+
+.texts h2 {
+    color: green;
+}
+
+.texts p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+footer {
+    width: auto;
+    height: 100px;
+    margin-bottom: 0;
+    background-color: green;
+    text-align: center;
+    color: white;
 }
