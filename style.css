@@ -111,6 +111,7 @@ header h1 {
 }
 
 /*Slider de images*/
+
 /*
 .slider {
     display: block;
@@ -190,9 +191,24 @@ header h1 {
 
 /*Textos*/
 
-#why {
-    margin-top: 150px;
+/*Página Pessoal*/
+
+/*Pontos*/
+
+.pontos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    background-color: rgb(179, 179, 179);
+    box-shadow: 1px 1px 5px black;
 }
+
+.pontos p {
+    font-size: 30px;
+    color: black;
+}
+
+/*Footer*/
 
 footer {
     width: auto;
