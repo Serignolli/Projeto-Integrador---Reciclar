@@ -6,43 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Reciclar</title>
     <link rel="shortcut icon" href="../assets/favicon/favicon-reciclagem.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Reciclar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./assets/favicon/favicon-reciclagem.jpg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <header>
     <!--Logo-->
-    <img src="../assets/img-simbolo-reciclagem.jpg" alt="Simbolo-Reciclagem" width="150px" height="150px">
-    <!--Nome empresa/projeto-->
-    <h1>Projeto Reciclar</h1>
-    <!--Menu drop down-->
-    <nav>
-        <ul>
-            <li>Home</li>
+    <img class="logo" src="./assets/logo/img-simbolo-reciclagem.jpg">
+    <div class="header-center">
+        <!--Nome empresa/projeto-->
+        <h1><strong>Projeto Reciclar</strong></h1>
+        <!--Menu drop down-->
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
 
             <li>
-                Onde descartar?
+                <p>Onde descartar?</p>
                 <ul>
-                    <li>Eletrônico</li>
-                    <li>Orgânico</li>
-                    <li>Reciclável</li>
+                    <li>
+                        <a href="pages/eletronic.html">Eletrônico</a>
+                    </li>
+                    <li>
+                        <a href="pages/recyclable.html">Reciclável</a>
+                    </li>
                 </ul>
             </li>
 
             <li>
-                Sobre Lixo
+                <p>Sobre Lixo</p> 
                 <ul>
-                    <li>Eletrônico</li>
-                    <li>Orgânico</li>
-                    <li>Reciclável</li>
+                    <li>
+                        <a href="pages/about.html#eletronic">Eletrônico</a>
+                    </li>
+                    <li>
+                        <a href="pages/about.html#recyclable">Reciclável</a>
+                    </li>
+                    <li>
+                        <a href="pages/about.html#organic">Orgânico</a>
+                    </li>
                 </ul>
             </li>
 
-            <li>Porque Reciclar?</li>
+            <li>
+                <a href="pages/why.html">Porque reciclar?</a>
+            </li>
         </ul>
+    </div>
+    <a href="pages/personalpage.html"><input class="login" type="button" value="Login"></a>
 </header>
+
 <body>
-    <h2>Porque devemos descartar?</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aliquam error velit nisi, eaque quidem hic deleniti, eum consequatur sit incidunt amet quod debitis? Quibusdam sint accusantium reprehenderit illum iusto? lorem</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto magnam quibusdam, facere praesentium a animi dolore cumque recusandae facilis blanditiis esse incidunt placeat aspernatur ipsam quis laboriosam molestiae at.</p>
+    <div class="texts" id="why">
+        <h2>Porque devemos descartar?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aliquam error velit nisi, eaque quidem hic deleniti, eum consequatur sit incidunt amet quod debitis? Quibusdam sint accusantium reprehenderit illum iusto? lorem</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto magnam quibusdam, facere praesentium a animi dolore cumque recusandae facilis blanditiis esse incidunt placeat aspernatur ipsam quis laboriosam molestiae at.</p>
+    </div>
 
     <footer>Site realizado para um trabalho de faculdade<footer>
 </body>
