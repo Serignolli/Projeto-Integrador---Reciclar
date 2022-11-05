@@ -1,0 +1,86 @@
+/*Body*/
+
+/*Imagem body*/
+
+.images img {
+    /*margin-top: 160px;*/
+    width: 800px;
+    height: 393px;
+}
+
+/*Slider de images*/
+
+/*
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider label {
+    background-color: black;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+*/
+/*Textos body*/
+
+.texts {
+    margin: 0 200px 0 100px;
+
+}
+
+.texts h2 {
+    color: green;
+}
+
+.texts p {
+    text-align: justify;
+    text-indent: 30px;
+}

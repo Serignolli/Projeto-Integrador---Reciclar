@@ -1,0 +1,141 @@
+/*Página Pessoal*/
+
+/*Pontos*/
+
+.pontos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.pontos div {
+    display: flex;
+    align-items: center;
+}
+
+.pontos p {
+    font-size: 30px;
+    color: black;
+}
+
+.pontos img {
+    width: 80px;
+    height: 80px;
+}
+
+/*Quantidade de lixo*/
+
+.qtd-lixo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qtd-lixo-reciclavel {
+    border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 24px 24px #008b4e;
+}
+
+.qtd-lixo-reciclavel img {
+    width: 260px;
+}
+
+.qtd-lixo-eletronico {
+    border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 24px 24px #804e47;
+}
+
+.qtd-lixo-eletronico img {
+    width: 130px;
+}
+
+.coleta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solicitar-coleta {
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*Loja*/
+
+.loja {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    background-image: linear-gradient(#f5f5f5 0, white 20%);
+}
+
+/*h2*/
+
+.loja h2 {
+    font-size: 60px;
+    margin-bottom: 5vh;
+}
+
+/*Produtos*/
+
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.produto {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produto img {
+    max-width: 150px;
+}
+
+.produto:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.trocar-pontos {
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
