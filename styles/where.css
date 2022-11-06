@@ -1,0 +1,87 @@
+/*Estilo eletronico*/
+
+.form-cep-eletronico {
+    margin: 30px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-cep-eletronico h1{
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.form-cep-eletronico h1 span {
+    color: #804e47;
+}
+
+.cep-eletronico {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px inset #804e47;
+}
+
+.consulta-eletronico {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #60352f;
+    background-color: #804e47;
+    color: white;
+    font-weight: bold;
+}
+
+.iframe-eletronico {
+    margin: 50px 0;  
+}
+
+.iframe-eletronico iframe {
+    border:8px inset #804e47;
+}
+
+/*Estilo reciclável*/
+
+.form-cep-reciclavel {
+    margin: 30px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-cep-reciclavel h1{
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.form-cep-reciclavel h1 span {
+    color: #008b4e;
+}
+
+.cep-reciclavel {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px inset #008b4e;
+}
+
+.consulta-reciclavel {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #075634;
+    background-color: #008b4e;
+    color: white;
+    font-weight: bold;
+}
+
+.iframe-reciclavel {
+    margin: 50px 0;  
+}
+
+.iframe-reciclavel iframe {
+    border:8px inset #008b4e;
+}
+
+.pontos-descarte {
+    margin: 0 5vw;
+    margin-bottom: 50px;
+    border: 3px solid black;
+}

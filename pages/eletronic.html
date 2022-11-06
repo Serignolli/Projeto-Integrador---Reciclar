@@ -4,54 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Projeto Reciclar</title>
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/where.css">
+
     <link rel="shortcut icon" href="../assets/favicon/favicon-reciclagem.jpg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <header>
     <!--Logo-->
-    <img src="../assets/img-simbolo-reciclagem.jpg" alt="Simbolo-Reciclagem" width="150px" height="150px">
-    <!--Nome empresa/projeto-->
-    <h1>Projeto Reciclar</h1>
-    <!--Menu drop down-->
-    <nav>
-        <ul>
-            <li>Home</li>
+    <img class="logo" src="../assets/logo/img reciclagem.jpg">
+    <div class="header-center">
+        <!--Nome empresa/projeto-->
+        <h1><strong><span>P</span>rojeto <span>R</span>eciclar</strong></h1>
+        <!--Menu drop down-->
+        <ul class="menu">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
 
             <li>
-                Onde descartar?
+                <p>Onde descartar?</p>
                 <ul>
-                    <li>Eletrônico</li>
-                    <li>Orgânico</li>
-                    <li>Reciclável</li>
+                    <li>
+                        <a href="./eletronic.html">Eletrônico</a>
+                    </li>
+                    <li>
+                        <a href="recyclable.html">Reciclável</a>
+                    </li>
                 </ul>
             </li>
 
             <li>
-                Sobre Lixo
+                <p>Sobre Lixo</p> 
                 <ul>
-                    <li>Eletrônico</li>
-                    <li>Orgânico</li>
-                    <li>Reciclável</li>
+                    <li>
+                        <a href="about.html#eletronic">Eletrônico</a>
+                    </li>
+                    <li>
+                        <a href="about.html#recyclable">Reciclável</a>
+                    </li>
+                    <li>
+                        <a href="about.html#organic">Orgânico</a>
+                    </li>
                 </ul>
             </li>
 
-            <li>Porque Reciclar?</li>
+            <li>
+                <a href="
+                why.html">Porque reciclar?</a>
+            </li>
         </ul>
-</header>
-<body>
-    <h2>Encontre o local mais próximo</h2>
-    <form action="">
-        <label for="cep"> CEP:
-            <input name="cep" id="cep">
-        </label>
-        <input type="button" value="Procurar">
-        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Shopping%20SP%20Market,%20mall,%20S%C3%A3o%20Paulo,%20Brazil+(Centro%20Universitario%20Senac)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe></div>
-    </form>
+    </div>
 
-    <h2>Pontos para descarte do lixo eletrônico</h2>
-    <p>Ponto 1</p>
-    <p>Ponto 2</p>
+    <div class="btn-login">
+        <a href="personalpage.html"><input class="login" type="button" value="Login"></a>
+    </div>
+</header>
+
+<body>
+    <div class="form-cep-eletronico">
+        <h1><span>L</span>ixo <span>E</span>letrônico</h1>
+
+        <h2>Encontre o local mais próximo</h2>
+
+        <form action="">
+
+            <label for="cep">
+                CEP: <input name="cep" id="cep" class="cep-eletronico" minlength="8" maxlength="9" placeholder="_____-___" required>
+            </label>
+            <input type="button" value="Consultar" class="consulta-eletronico">
+        </form>
+
+            <div class="iframe-eletronico" style="width: 100%">
+                <iframe width="1000" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Shopping%20SP%20Market,%20mall,%20S%C3%A3o%20Paulo,%20Brazil+(Centro%20Universitario%20Senac)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>
+            </div>
+    </div>
+
+    <div class="pontos-descarte">
+        <h2>Pontos para descarte do lixo eletrônico</h2>
+        <p>Ponto 1</p>
+        <p>Ponto 2</p>
+    </div>
 
     <footer>Site realizado para um trabalho de faculdade<footer>
 </body>
