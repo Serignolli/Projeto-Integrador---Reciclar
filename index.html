@@ -69,7 +69,7 @@
 </header>
 
 <body>
-    <!--Imagens que vão ficar rodando-->
+    <!--Imagens que vão ficar rodando
     <div class="slider">
         <ul class="slides">
             <li>
@@ -84,6 +84,42 @@
                 <img src="./assets/images/lixo reciclavel.jpg" alt="Imagem lixo reciclável">
             </li>
         </ul>
+    </div>-->
+
+    <div class="slider">
+
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="./assets/images/lixo eletronico.jpg" alt="Imagem lixo eletrônico">
+            </div>
+
+            <div class="slide">
+                <img src="./assets/images/lixo organico.jpg" alt="Imagem lixo orgânico">
+            </div>
+
+            <div class="slide">
+                <img src="./assets/images/lixo reciclavel.jpg" alt="Imagem lixo reciclável">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
     </div>
 
 
@@ -99,5 +135,23 @@
     </div>
 
     <footer>Site criado para um trabalho de faculdade<footer>
+
+    <script>
+        let count = 1;
+        document.getElementById("radio1").checked = true;
+
+        setInterval(function(){
+            nextImage();
+        }, 5000)
+
+        function nextImage(){
+            count++;
+            if (count > 3) {
+                count = 1;
+            }
+
+            document.getElementById("radio"+count).checked = true;
+        }
+    </script>
 </body>
 </html>

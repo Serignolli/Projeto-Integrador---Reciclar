@@ -17,6 +17,7 @@ header {
     /*position: fixed;*/
     display: flex;
     box-shadow: 1px 1px 9px black;
+    margin-bottom: 50px;
 }
 
 /*div Titulo e Menu*/
