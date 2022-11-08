@@ -1,0 +1,13 @@
+.texts {
+    margin: 50px 200px 0 100px;
+
+}
+
+.texts h2 {
+    color: green;
+}
+
+.texts p {
+    text-align: justify;
+    text-indent: 30px;
+}
