@@ -7,7 +7,11 @@
     color: green;
 }
 
-.texts p {
+.primeiro-paragrafo {
     text-align: justify;
     text-indent: 30px;
+}
+
+.texts p {
+    text-align: justify;
 }
